@@ -335,7 +335,6 @@ footer .link-wrapper ul li {
   color: gray;
   padding: 0.5em;
 }
-
 .service-code:hover {
   outline: 1px solid #fff;
   color: #fff;
@@ -345,3 +344,7 @@ footer .link-wrapper ul li {
   line-height: 1.4em;
 }
 /* footer end */
+.login-wrapper {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}

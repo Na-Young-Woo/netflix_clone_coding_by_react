@@ -1,0 +1,18 @@
+import Header from "./Header";
+import TitleAndInfo from "./TitleAndInfo";
+import BackgroundPlay from "./BackgroundPlay";
+import Footer from "./Footer";
+import ContentsLists from "./ContentsLists";
+
+const Main = () => {
+  return (
+    <div>
+      <Header></Header>
+      <TitleAndInfo></TitleAndInfo>
+      <BackgroundPlay></BackgroundPlay>
+      <ContentsLists></ContentsLists>
+      <Footer></Footer>
+    </div>
+  );
+};
+export default Main;

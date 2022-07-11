@@ -1,22 +1,24 @@
-import Header from "./components/Header.js";
-import TitleAndInfo from "./components/TitleAndInfo";
-import BackgroundPlay from "./components/BackgroundPlay";
-import Footer from "./components/Footer";
-import ContentsLists from "./components/ContentsLists";
-
+import Main from "./components/Main";
+import Login from "./components/Login";
+import Watch from "./components/Watch";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Profile from "./components/Profile";
 function App() {
   return (
-    <div id="wrapper">
-      <section>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/watch" element={<Watch />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        {/* 
         <Header></Header>
         <TitleAndInfo></TitleAndInfo>
         <BackgroundPlay></BackgroundPlay>
-      </section>
-      <div className="contents-lists-and-footer">
         <ContentsLists></ContentsLists>
-        <Footer></Footer>
-      </div>
-    </div>
+        <Footer></Footer> */}
+      </Routes>
+    </Router>
   );
 }
 

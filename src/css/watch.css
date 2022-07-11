@@ -26,6 +26,8 @@
   position: absolute;
   fill: #fff;
   cursor: pointer;
+  /* border: 1px solid red;
+  width: 48px; */
 }
 .flag {
   padding: 6px;
@@ -35,6 +37,10 @@
   left: 25px;
   /* border: 1px solid red; */
   /* transform: scaleX(-1); */
+}
+
+.backspace span {
+  font-size: 48px;
 }
 
 .flag {
