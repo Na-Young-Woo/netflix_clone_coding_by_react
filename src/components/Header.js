@@ -1,3 +1,8 @@
+import "../css/reset.css";
+import "../css/style.css";
+
+import logo from "../src_assets/Netflix_logo.png";
+
 const Header = () => {
   return (
     <div>
@@ -5,7 +10,7 @@ const Header = () => {
         <div className="first-navigation">
           <h1 id="logo">
             <a href="">
-              <img src="{../public/Netflix_logo.png}" alt="넷플릭스 로고" />
+              <img src={logo} alt="넷플릭스 로고" />
             </a>
           </h1>
           <nav>
