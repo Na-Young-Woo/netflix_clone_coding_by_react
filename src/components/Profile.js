@@ -7,7 +7,6 @@ const Profile = () => {
   return (
     <div>
       <Header></Header>
-
       <div className="profiles-wrapper">
         <h1>프로필 관리</h1>
         <div className="choose-profile">
