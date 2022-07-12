@@ -1,5 +1,5 @@
-import "../css/reset.css";
-import "../css/style.css";
+import { Link } from "react-router-dom";
+import "./titleAndInfo.css";
 
 const TitleAndInfo = () => {
   return (
@@ -19,7 +19,7 @@ const TitleAndInfo = () => {
         </div>
       </div>
       <div className="button-wrapper">
-        <a href="/watch.html">
+        <Link to="/watch">
           <button type="button">
             <div className="play-icon">
               <svg
@@ -37,7 +37,7 @@ const TitleAndInfo = () => {
             </div>
             <span>재생</span>
           </button>
-        </a>
+        </Link>
         <button type="button">
           <div className="detail-info-icon">
             <svg

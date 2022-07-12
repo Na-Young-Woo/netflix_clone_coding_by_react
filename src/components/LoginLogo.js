@@ -1,5 +1,5 @@
 import "../css/reset.css";
-import "../css/login.css";
+// import "../css/login.css";
 
 const LoginLogo = () => {
   return (

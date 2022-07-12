@@ -1,4 +1,6 @@
-import Header from "./Header";
+import "../css/reset.css";
+import "./main.css";
+import Header from "./header/Header";
 import TitleAndInfo from "./TitleAndInfo";
 import BackgroundPlay from "./BackgroundPlay";
 import Footer from "./Footer";

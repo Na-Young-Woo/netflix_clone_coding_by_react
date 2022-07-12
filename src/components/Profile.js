@@ -1,19 +1,12 @@
 import "../css/reset.css";
 import "../css/style.css";
 import "../css/profiles.css";
+import Header from "./header/Header";
 
 const Profile = () => {
   return (
     <div>
-      <header className="p-50">
-        <div className="first-navigation">
-          <h1 id="logo">
-            <a href="/index.html">
-              <img src="./resources/Netflix_logo.png" alt="넷플릭스 로고" />
-            </a>
-          </h1>
-        </div>
-      </header>
+      <Header></Header>
 
       <div className="profiles-wrapper">
         <h1>프로필 관리</h1>

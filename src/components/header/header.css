@@ -1,0 +1,114 @@
+/* header start */
+header,
+nav > ul,
+.first-navigation,
+.secondary-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #141414;
+  z-index: 10;
+  /* width: -webkit-fill-available; */
+}
+
+#logo img {
+  height: 25px;
+  margin-right: 25px;
+}
+.secondary-navigation .nav-item {
+  padding: 1px 6px;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.profile-icon {
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-menu-item a:last-child,
+.account-menu-item a:nth-last-child(4) {
+  border-top: 1px solid gray;
+}
+.account-menu-item:hover .caret-wrapper {
+  transform: rotate(0.5turn);
+  -webkit-transform: rotate(0.5turn); /*  크롬 */
+  -moz-transform: rotate(0.5turn); /* FireFox */
+  -o-transform: rotate(0.5turn); /* Opera */
+  transition: all 0.3s ease-in-out;
+}
+.account-menu-item:hover .account-dropdown-wrapper {
+  display: block;
+}
+.account-menu-item .caret-wrapper {
+  transition: all 0.3s ease-in-out;
+}
+.account-menu-item a {
+  display: flex;
+}
+.account-dropdown-wrapper a {
+  height: 45px;
+  padding-left: 10px;
+}
+.account-dropdown-wrapper a:hover {
+  text-decoration: underline;
+}
+.account-dropdown-wrapper {
+  position: absolute;
+  top: 70px;
+  right: 3.125rem;
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  border: 1px solid gray;
+  display: none;
+  padding: 5px 0;
+}
+.dropdown-click-area {
+  position: absolute;
+  width: 3.5rem;
+  height: 1.25rem;
+}
+.account-dropdown-wrapper li {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+}
+.other_profile {
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+}
+.account-dropdown-wrapper ul a:nth-child(1) .other_profile {
+  background-image: url("https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABeLKIkjJc_qjRdxnpepqcFpyuDSbmrWuywkKfuNxVbP9SAE7shnZgNdA9RK5ITPR6oyM0ZZJuompU97WfSeORTzc8RsyUYVJo6R2.png?r=72f");
+}
+.account-dropdown-wrapper ul a:nth-child(2) .other_profile {
+  background-image: url("https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbV2URr-qEYOrESG0qnP2787XsIxWTMBh7QfJwyqYxMAVFNyiXAqFeu16gI8yTxg3kLwF2mUDKmZGfwBEDd7722xskhYwAMwsBBe.png?r=bd7");
+}
+.account-dropdown-wrapper ul a:nth-child(3) .other_profile {
+  background-image: url("https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABWw0vRAvv1VCQh43eIGGbOU9YGB0c_wGM1K8LDuUnYfB0jVIwRW1gTpYldIoy67LtH1Ky8cxhC_mjBb6C4qfcJWHzLAJasWAXuNR.png?r=ce4");
+}
+.caret {
+  /* background-color: red; */
+  position: relative;
+  top: 1.25rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #fff transparent transparent transparent;
+}
+/* header end */
