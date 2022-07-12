@@ -2,9 +2,9 @@ import "../css/reset.css";
 import "./main.css";
 import Header from "./header/Header";
 import TitleAndInfo from "./TitleAndInfo";
-import BackgroundPlay from "./BackgroundPlay";
+import BackgroundPlay from "./BackgroundPlay/BackgroundPlay";
 import Footer from "./Footer";
-import ContentsLists from "./ContentsLists";
+import ContentsLists from "./ContentsLists/ContentsLists";
 
 const Main = () => {
   return (

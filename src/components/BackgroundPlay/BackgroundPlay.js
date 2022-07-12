@@ -1,5 +1,4 @@
-import "../css/reset.css";
-import "../css/style.css";
+import "./backgroundPlay.css";
 
 const BackgroundPlay = () => {
   return (

@@ -11,12 +11,6 @@ function App() {
         <Route path="/watch" element={<Watch />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
-        {/* 
-        <Header></Header>
-        <TitleAndInfo></TitleAndInfo>
-        <BackgroundPlay></BackgroundPlay>
-        <ContentsLists></ContentsLists>
-        <Footer></Footer> */}
       </Routes>
     </Router>
   );

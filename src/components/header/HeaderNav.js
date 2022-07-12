@@ -1,3 +1,4 @@
+import "./headerNav.css";
 const HeaderNav = () => {
   return (
     <nav>

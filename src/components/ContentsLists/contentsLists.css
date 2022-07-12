@@ -1,0 +1,95 @@
+/* contents-lists start */
+.contents-lists {
+  margin-bottom: 3.125rem;
+  /* 버튼 호버 시 크기 증가할 때 오버플로 되는 것 방지 */
+  overflow: hidden;
+}
+.contents-lists,
+footer {
+  position: relative;
+  top: 78vh;
+}
+.list {
+  position: relative;
+}
+.card img {
+  border-radius: 0.2vw;
+  width: 18vw;
+  /* width: 14.2rem; */
+  /* height: 10vw; */
+  padding: 0 2px;
+}
+.boxart {
+  width: 229px;
+  padding: 0 2px;
+}
+.boxart img {
+  border-radius: 6px;
+  width: 50%;
+}
+.boxart div {
+  width: 50%;
+  height: 166px;
+}
+.boxart a {
+  display: flex;
+}
+
+.contents-lists .list ul {
+  display: flex;
+}
+.contents-lists h3 {
+  font-size: 1.4vw;
+  padding: 10px 0 15px 0;
+}
+/* svg path 아이콘 기본 하얀색으로 설정 */
+.contents-lists .arrow-prev svg path,
+.contents-lists .arrow-next svg path {
+  fill: #fff;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.arrow-prev,
+.arrow-next {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+  height: 130px;
+  width: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: transparent;
+}
+.arrow-prev:hover svg,
+.arrow-next:hover svg {
+  transform: scale(1.8); /*  default */
+  -webkit-transform: scale(1.8); /*  크롬 */
+  -moz-transform: scale(1.8); /* FireFox */
+  -o-transform: scale(1.8); /* Opera */
+  transition: all 0.3s ease-in-out;
+}
+.arrow-prev {
+  left: -52px;
+}
+.arrow-next {
+  right: -52px;
+}
+.carousel_container {
+  width: 72rem;
+  overflow: hidden;
+  display: flex;
+}
+.container {
+  /* list width만큼 움직여주기 */
+
+  transition-duration: 0.8s;
+}
+.row {
+  margin: 2rem 0;
+}

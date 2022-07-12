@@ -1,0 +1,21 @@
+/* image-wrapper start */
+#image-wrapper img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.rating {
+  position: absolute;
+  right: 0;
+  bottom: 28%;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 3px #dcdcdc;
+  border-left-style: solid;
+  padding: 1rem 3.5vw 1rem 0.8vw;
+  display: flex;
+  height: 1.25rem;
+  align-items: center;
+}
+.rating svg {
+  width: 1.75rem;
+}
