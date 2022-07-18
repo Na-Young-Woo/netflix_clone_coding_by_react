@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./titleAndInfo.css";
+import "./TitleAndInfo.css";
 
 const TitleAndInfo = () => {
   return (

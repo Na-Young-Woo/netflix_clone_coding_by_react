@@ -4,7 +4,7 @@ import "../css/reset.css";
 const LoginLogo = () => {
   return (
     <div>
-      <h1 id="netflex-lgin-logo">
+      <h1 id="netflex-login-logo">
         <a href="./index.html">
           <svg
             viewBox="0 0 111 30"

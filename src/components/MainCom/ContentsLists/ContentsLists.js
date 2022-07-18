@@ -1,93 +1,14 @@
 import "./contentsLists.css";
 import Row from "./Row";
-
+import RowTitle from "../../../jsons/ContentTitleData.json";
 const ContentsLists = () => {
   return (
     <div>
       <section className="contents-lists p-50">
-        <Row></Row>
+        <Row title={RowTitle[0].title} imgSrc={""}></Row>
         <div className="row">
           <h3>넷플릭스 인기 콘텐츠</h3>
-          <div className="list">
-            <div className="carousel_container">
-              <div className="container">
-                <ul>
-                  <li>
-                    <div className="card">
-                      <a href="/watch.html">
-                        <img
-                          src="https://occ-0-395-988.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfeVfO5gAUDeqoqObHSforfnPzC2JfonpiTvQ9EC-Hz2BL-gc3nPU8hbCEjYPi5oOlgMG45yqr6O_2W6gpX4NJEq571LB2ULhb-nw3C3m23wKCcq4WXXcIsQxadSCQL_1weUnYrTcUwOOdJ0X-BjyezKXYUUil8LL5y-Uwqrk8tn-d9-uo2pRpmfi0tHTVI-xj6f.webp?r=54c"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="card">
-                      <a href="/watch.html">
-                        <img
-                          src="https://occ-0-395-988.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdUY2aktoXodYbhA61ChrZXBelpMjR48xYI4Ck1_vJ4N9BdwnXX_HhkUZe8x-Fq0sn7Nw-cpFIaghA_7KuZEijO1T8c43QHoGCRQf2RqMbis5-_HhXl_o1rDOIDBhsKj9f6UOse9Va5RR49Nt7cIgPvi75A5yLNYgPr44Gn_CZaKBJM4MmTT1Cwqm_SBQSbUcwqoFKxya7OAZlwp1VTb6hJbeOPLZloH.jpg?r=169"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="card">
-                      <a href="/watch.html">
-                        <img
-                          src="https://occ-0-395-988.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQppu8TL1VD3W36oexh2C1DmptZNPW-4bNlxEBM71bJZ5yO3fFMFcAJrPzxUAxtfTXvMfsofmR56vugm2-055192eX7VQ3gTUWxa-qH9pfh-7YaBqvaZoP1jdBFIaAfIjMBK.jpg?r=094"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="card">
-                      <a href="/watch.html">
-                        <img
-                          src="https://occ-0-395-988.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvOPuOzKSLpQZpIqBW7atUlfT_vjFnoiYvlrA0fEkJvBw7ZFJIxcPPDjvSvLJBx3K90ivkgIP0gX6VlLAXPdeTooB89Ycz4ANASY_Heh_hLkK67KbuZ8mSEd2vv55IBL68h.jpg?r=f28"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="card">
-                      <a href="/watch.html">
-                        <img
-                          src="https://occ-0-395-988.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUXCrBV7pX_0xdE8JPmTIuNxwrLtVy47R0Xq2wFYXjMKtWR17YzK5_Mk-v5Zeioir7_69P6LwBRJ8mkYPr9hM2taXkMDDahGcabBP-5BuugNzY-vLsiBioBInKc9ffczhv4V2VgDcXN0smKoUERLYc_9rvwWWKX5P7cfxhK4yDmM9CDUi4Retyr0r7MLL20.jpg?r=dd5"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <button className="arrow-prev">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-              </svg>
-            </button>
-
-            <button className="arrow-next">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-              </svg>
-            </button>
-          </div>
+          <Row title={RowTitle[1].title} imgSrc={""}></Row>
         </div>
         <div className="row">
           <h3>오늘 대한민국의 TOP 10 시리즈</h3>

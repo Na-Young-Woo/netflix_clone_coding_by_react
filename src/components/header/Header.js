@@ -1,7 +1,5 @@
-import "../header/header.css";
-
-import logo from "../../src_assets/Netflix_logo.png";
-
+import "./header.css";
+import logo from "../../assets/Netflix_logo.png";
 import HeaderNav from "./HeaderNav";
 import HeaderNav2 from "./HeaderNav2";
 

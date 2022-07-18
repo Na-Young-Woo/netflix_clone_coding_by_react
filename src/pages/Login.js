@@ -1,6 +1,8 @@
-import LoginBox from "./LoginBox";
-import LoginLogo from "./LoginLogo";
+import LoginBox from "../components/LoginCom/LoginBox";
+import LoginLogo from "../components/LoginLogo";
 // import "./login.css";
+// 여기에서 필요한 것만 불러오고
+
 import "../css/login.css";
 const Login = () => {
   return (

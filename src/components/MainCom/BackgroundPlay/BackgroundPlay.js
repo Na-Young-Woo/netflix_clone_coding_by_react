@@ -1,5 +1,4 @@
-import "./backgroundPlay.css";
-
+import "./BackgroundPlay.css";
 const BackgroundPlay = () => {
   return (
     <div id="image-wrapper">
