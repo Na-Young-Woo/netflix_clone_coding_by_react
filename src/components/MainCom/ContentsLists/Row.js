@@ -1,14 +1,15 @@
 import ContnetImageData from "../../../jsons/ContnetImageData.json";
 import Card from "./Card";
-const Row = (props) => {
+const Row = ({ title, array }) => {
+  let list = array;
   return (
     <div className="row">
-      <h3>{props.title}</h3>
+      <h3>{title}</h3>
       <div className="list">
         <div className="carousel_container">
           <div className="container">
             <ul>
-              {ContnetImageData.map((item) => (
+              {list.map((item) => (
                 <li key={item.id}>
                   <Card src={item.src} alt={item.alt} href={item.href}></Card>
                 </li>

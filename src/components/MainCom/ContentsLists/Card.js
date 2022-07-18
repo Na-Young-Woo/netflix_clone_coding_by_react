@@ -1,10 +1,8 @@
-import ContnetImageData from "../../../jsons/ContnetImageData.json";
-
-const Card = (props) => {
+const Card = ({ href, src, alt }) => {
   return (
     <div className="card">
-      <a href={props.href}>
-        <img src={props.src} alt={props.alt} />
+      <a href={href}>
+        <img src={src} alt={alt} />
       </a>
     </div>
   );
