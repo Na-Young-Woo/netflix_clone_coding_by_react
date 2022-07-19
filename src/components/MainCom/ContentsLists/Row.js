@@ -11,7 +11,7 @@ const Row = ({ title, array }) => {
             <ul>
               {list.map((item) => (
                 <li key={item.id}>
-                  <Card src={item.src} alt={item.alt} href={item.href}></Card>
+                  <Card src={item.src} alt={item.alt} href={item.href} />
                 </li>
               ))}
             </ul>

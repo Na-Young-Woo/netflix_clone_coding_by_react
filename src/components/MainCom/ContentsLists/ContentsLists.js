@@ -12,8 +12,8 @@ const ContentsLists = () => {
   return (
     <div>
       <section className="contents-lists p-50">
-        <Row array={ContentData1} title={RowTitle[0].title}></Row>
-        <Row array={ContentData3} title={RowTitle[1].title}></Row>
+        <Row array={ContentData1} title={RowTitle[0].title} />
+        <Row array={ContentData3} title={RowTitle[1].title} />
         <div className="row">
           <h3>넷플릭스 인기 콘텐츠</h3>
           <div className="list">
@@ -97,7 +97,7 @@ const ContentsLists = () => {
             </button>
           </div>
         </div>
-        <RowRank array={ContentData3} title={RowTitle[4].title}></RowRank>
+        <RowRank array={ContentData3} title={RowTitle[4].title} />
 
         <div className="row">
           <h3>오직 넷플릭스에서</h3>

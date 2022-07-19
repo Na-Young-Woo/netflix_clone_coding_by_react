@@ -1,13 +1,23 @@
 import { Link } from "react-router-dom";
 import "./HeaderNav2.css";
 import { useEffect, useState } from "react";
+import AllContents from "../../jsons/AllContents.json";
 const HeaderNav2 = () => {
   const [search, setSearch] = useState("");
   const handleInputChange = (e) => {
     setSearch(e.target.value);
   };
+
+  function isSame(value) {
+    return value == search;
+  }
+
   useEffect(() => {
-    console.log("test");
+    // console.log(AllContents);
+    // console.log(search);
+    AllContents.filter((val) => {
+      console.log(val.alt);
+    });
   }, [search]);
 
   return (
@@ -15,7 +25,7 @@ const HeaderNav2 = () => {
       <div className="nav-item search-box">
         <input
           type="text"
-          style={{ border: "1px solid red", color: "#fff" }}
+          // style={{ border: "1px solid red", color: "#fff" }}
           value={search}
           onChange={handleInputChange}
         />

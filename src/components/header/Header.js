@@ -12,9 +12,10 @@ const Header = ({ isMain }) => {
             <img src={logo} alt="넷플릭스 로고" />
           </a>
         </h1>
-        {isMain ? <HeaderNav></HeaderNav> : null}
+        {/* and 연산자 */}
+        {isMain && <HeaderNav />}
       </div>
-      {isMain ? <HeaderNav2></HeaderNav2> : null}
+      {isMain && <HeaderNav2 />}
     </header>
   );
 };
