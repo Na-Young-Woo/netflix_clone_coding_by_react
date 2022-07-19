@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.secondary-navigation svg {
+  color: #fff;
+}
+
 .secondary-navigation .nav-item {
   padding: 1px 6px;
   margin-right: 10px;
