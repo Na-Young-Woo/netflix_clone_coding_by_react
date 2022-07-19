@@ -1,9 +1,9 @@
-import "../../styles/style.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div>
-      <footer>
+      <footer className="mainFooter">
         <div className="social-wrapper">
           <ul>
             <li>

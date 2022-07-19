@@ -3,18 +3,18 @@ import logo from "../../assets/Netflix_logo.png";
 import HeaderNav from "./HeaderNav";
 import HeaderNav2 from "./HeaderNav2";
 
-const Header = () => {
+const Header = ({ isMain }) => {
   return (
     <header className="p-50">
       <div className="first-navigation">
         <h1 id="logo">
-          <a href="">
+          <a href="#">
             <img src={logo} alt="넷플릭스 로고" />
           </a>
         </h1>
-        <HeaderNav></HeaderNav>
+        {isMain ? <HeaderNav></HeaderNav> : null}
       </div>
-      <HeaderNav2></HeaderNav2>
+      {isMain ? <HeaderNav2></HeaderNav2> : null}
     </header>
   );
 };

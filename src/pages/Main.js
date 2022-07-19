@@ -6,11 +6,14 @@ import ContentsLists from "../components/MainCom/ContentsLists/ContentsLists";
 import Footer from "../components/Footer/Footer";
 import TitleAndInfoData from "../jsons/TitleAndInfoData.json";
 
+import Nav1 from "../components/Header/HeaderNav";
+import Nav2 from "../components/Header/HeaderNav2";
 const Main = () => {
   console.log(TitleAndInfoData);
+
   return (
     <div>
-      <Header></Header>
+      <Header isMain={true}></Header>
       <TitleAndInfo></TitleAndInfo>
       <BackgroundPlay></BackgroundPlay>
       <ContentsLists></ContentsLists>

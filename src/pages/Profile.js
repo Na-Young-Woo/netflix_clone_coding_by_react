@@ -1,8 +1,6 @@
-import "../css/reset.css";
-import "../css/style.css";
-import "../css/profiles.css";
-import Header from "./header/Header";
-
+import "./Profile.css";
+import Header from "../components/Header/Header";
+import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <div>
@@ -35,14 +33,14 @@ const Profile = () => {
                 </div>
               </li>
             </a>
-            <a href="/index.html">
+            <Link to="/">
               <li>
                 <div className="avatar-wrapper">
                   <div className="avatar"></div>
                   <div>VellKa</div>
                 </div>
               </li>
-            </a>
+            </Link>
 
             <a href="#">
               <li>

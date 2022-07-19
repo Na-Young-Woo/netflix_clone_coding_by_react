@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 .contents-lists,
-footer {
+footer.mainFooter {
   position: relative;
   top: 78vh;
 }

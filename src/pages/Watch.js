@@ -1,14 +1,12 @@
-import "../css/reset.css";
-import "../css/style.css";
-import "../css/watch.css";
-import Video from "../src_assets/videos/유령인데 어쩌라고 _ 공식 예고편 _ 넷플릭스.mp4";
+import Video from "../assets/videos/유령인데 어쩌라고 _ 공식 예고편 _ 넷플릭스.mp4";
+import "./Watch.css";
 
 const Watch = () => {
   return (
     <div>
       <div className="watch-video">
         <div className="backspace">
-          <span className="material-icons" style={{ fontSize: "48px" }}></span>
+          <span className="material-icons"></span>
         </div>
         <div className="flag">
           <svg

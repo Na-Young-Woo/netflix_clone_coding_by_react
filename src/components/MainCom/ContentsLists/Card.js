@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ href, src, alt }) => {
   return (
     <div className="card">
-      <a href={href}>
+      {/* {href} */}
+      <Link to="/watch">
         <img src={src} alt={alt} />
-      </a>
+      </Link>
     </div>
   );
 };

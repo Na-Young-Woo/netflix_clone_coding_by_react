@@ -1,11 +1,10 @@
-import "../css/reset.css";
-// import "../css/login.css";
+import { Link } from "react-router-dom";
 
 const LoginLogo = () => {
   return (
     <div>
       <h1 id="netflex-login-logo">
-        <a href="./index.html">
+        <Link to="/">
           <svg
             viewBox="0 0 111 30"
             className="svg-icon svg-icon-netflix-logo"
@@ -19,7 +18,7 @@ const LoginLogo = () => {
               ></path>
             </g>
           </svg>
-        </a>
+        </Link>
       </h1>
     </div>
   );
