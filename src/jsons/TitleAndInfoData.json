@@ -1,10 +1,12 @@
 [
   {
-    "imageSrc": "https://occ-0-2794-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABe9SXRHeY70egO6772mSRCAukR_a6Rr7jDSLv--EDGDpyEcfxjewMMorCv4DF9XCKsRcN3U8pG6G0KrAwLEF8QzfBZLtxe9LU5Dq0p38UOJn.webp?r=6d5",
-    "info": "《빽 투 더 퓨쳐》의 로버트 저메키스가 총괄 프로듀서를 맡은 앙상블 시리즈.《Common Sense Media》에서 '탄탄한 초자연적 미스터리' 작품으로  평가했다."
+    "src": "https://occ-0-2794-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABe9SXRHeY70egO6772mSRCAukR_a6Rr7jDSLv--EDGDpyEcfxjewMMorCv4DF9XCKsRcN3U8pG6G0KrAwLEF8QzfBZLtxe9LU5Dq0p38UOJn.webp?r=6d5",
+    "info": "《빽 투 더 퓨쳐》의 로버트 저메키스가 총괄 프로듀서를 맡은 앙상블 시리즈.《Common Sense Media》에서 '탄탄한 초자연적 미스터리' 작품으로  평가했다.",
+    "alt": "기묘한 이야기"
   },
   {
-    "imageSrc": "https://occ-0-2794-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABe9SXRHeY70egO6772mSRCAukR_a6Rr7jDSLv--EDGDpyEcfxjewMMorCv4DF9XCKsRcN3U8pG6G0KrAwLEF8QzfBZLtxe9LU5Dq0p38UOJn.webp?r=6d5",
-    "info": "test"
+    "src": "https://occ-0-2219-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcpZFglb6pA87PF_8gmMq8wDtLehbjEq5QPwgwvvCBlHyPJjnvLD-4S7yYE0DGv27G8rCR-RyYZkvdjaIIbh3Qc0kwppCNEOJrvR5pmeg4wz.webp?r=24f",
+    "info": "가수를 꿈꾸는 여자가 톱스타 뮤지션인 남자를 만나 열정적인 사랑에 빠져든다. 함께하는 시간 동안 여자는 스타의 길로 비상하지만, 남자는 고통과 고뇌 속에 점점 무너져가는데.",
+    "alt": "스타 이즈 본"
   }
 ]

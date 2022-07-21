@@ -12,8 +12,6 @@ const Login = () => {
           <LoginLogo></LoginLogo>
           <LoginBox></LoginBox>
         </div>
-        {/* <div className="blackBack">1</div> */}
-
         <div className="login-footer-wrapper">
           <footer>
             <div className="footer-wrapper">

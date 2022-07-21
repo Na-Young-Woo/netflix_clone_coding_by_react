@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" exact={true} element={<Main />} />
         <Route path="/watch" element={<Watch />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/manage" element={<Profile />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>

@@ -1,26 +1,22 @@
 import { Link } from "react-router-dom";
 import "./TitleAndInfo.css";
-
+import TitleAndInfoData from "../../../jsons/TitleAndInfoData.json";
 const TitleAndInfo = () => {
   return (
     <div className="title-and-info p-50">
       <div className="title">
         <img
-          alt="매니페스트"
-          src="https://occ-0-2794-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABe9SXRHeY70egO6772mSRCAukR_a6Rr7jDSLv--EDGDpyEcfxjewMMorCv4DF9XCKsRcN3U8pG6G0KrAwLEF8QzfBZLtxe9LU5Dq0p38UOJn.webp?r=6d5"
-          title="매니페스트"
+          alt={TitleAndInfoData[0].alt}
+          src={TitleAndInfoData[0].src}
+          title={TitleAndInfoData[0].alt}
         />
       </div>
       <div className="info">
-        <div className="info-synopsis">
-          《빽 투 더 퓨쳐》의 로버트 저메키스가 총괄 프로듀서를 맡은 앙상블
-          시리즈. 《Common Sense Media》에서 '탄탄한 초자연적 미스터리' 작품으로
-          평가했다.
-        </div>
+        <div className="info-synopsis">{TitleAndInfoData[0].info}</div>
       </div>
       <div className="button-wrapper">
         <Link to="/watch">
-          <button type="button">
+          <button type="button" className="play-button">
             <div className="play-icon">
               <svg
                 width="24"

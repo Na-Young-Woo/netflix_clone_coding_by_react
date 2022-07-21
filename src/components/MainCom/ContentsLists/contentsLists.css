@@ -4,8 +4,7 @@
   /* 버튼 호버 시 크기 증가할 때 오버플로 되는 것 방지 */
   overflow: hidden;
 }
-.contents-lists,
-footer.mainFooter {
+.contents-lists {
   position: relative;
   top: 78vh;
 }
@@ -87,7 +86,6 @@ footer.mainFooter {
 }
 .container {
   /* list width만큼 움직여주기 */
-
   transition-duration: 0.8s;
 }
 .row {

@@ -95,7 +95,7 @@ const HeaderNav2 = () => {
                 HJW
               </li>
             </a>
-            <Link to="/profile">
+            <Link to="/profile/manage">
               <div className="profile-icon">
                 <svg
                   width="24"

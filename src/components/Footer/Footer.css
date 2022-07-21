@@ -4,6 +4,12 @@ footer {
   margin: 1.25rem auto;
   padding-bottom: 1.25rem;
 }
+
+footer.mainFooter {
+  position: relative;
+  top: 78vh;
+}
+
 footer .link-wrapper,
 footer .copy-text {
   font-size: 13px;
