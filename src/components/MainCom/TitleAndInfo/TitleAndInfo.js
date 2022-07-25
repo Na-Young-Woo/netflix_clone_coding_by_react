@@ -3,7 +3,7 @@ import "./TitleAndInfo.css";
 import TitleAndInfoData from "../../../jsons/TitleAndInfoData.json";
 const TitleAndInfo = () => {
   return (
-    <div className="title-and-info p-50">
+    <div className="title-and-info m-50">
       <div className="title">
         <img
           alt={TitleAndInfoData[0].alt}
@@ -19,8 +19,8 @@ const TitleAndInfo = () => {
           <button type="button" className="play-button">
             <div className="play-icon">
               <svg
-                width="24"
-                height="24"
+                // width="24"
+                // height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,8 +37,8 @@ const TitleAndInfo = () => {
         <button type="button">
           <div className="detail-info-icon">
             <svg
-              width="24"
-              height="24"
+              // width="24"
+              // height="24"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

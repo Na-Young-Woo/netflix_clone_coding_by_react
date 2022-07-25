@@ -6,6 +6,7 @@ import ContentsLists from "../components/MainCom/ContentsLists/ContentsLists";
 import Footer from "../components/Footer/Footer";
 // import TitleAndInfoData from "../jsons/TitleAndInfoData.json";
 
+import "../styles/style.css";
 const Main = () => {
   // console.log(TitleAndInfoData);
   return (

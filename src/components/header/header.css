@@ -46,3 +46,10 @@ nav > ul,
   margin-right: 1.5625em;
 }
 /* header end */
+
+@media screen and (max-width: 400px) {
+  /* .nav-item.search-box svg.search-icon {
+    display: none;
+    background-color: red;
+  } */
+}

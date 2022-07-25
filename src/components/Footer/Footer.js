@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <footer className="mainFooter">
+      <footer className="main-footer">
         <div className="social-wrapper">
           <ul>
             <li>
@@ -147,14 +147,13 @@ const Footer = () => {
           <div className="copy-text-block">
             클라우드 호스팅: Amazon Web Services Inc.
           </div>
-          <div>
+          <div className="copy-text-block">
             <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1658700119">
               공정거래위원회 웹사이트
             </a>
-          </div>
-          <span className="member-footer-copyright-instance">
+            <br />
             &#123;41473ec3-143b-4425-a9b8-6d01cca282c1&#125;
-          </span>
+          </div>
         </div>
       </footer>
     </div>

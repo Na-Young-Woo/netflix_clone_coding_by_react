@@ -13,7 +13,7 @@ const Login = () => {
           <LoginBox></LoginBox>
         </div>
         <div className="login-footer-wrapper">
-          <footer>
+          <footer className="login-footer">
             <div className="footer-wrapper">
               <div className="question">
                 질문이 있으신가요? 문의 전화: 080-001-9587

@@ -6,7 +6,8 @@
 }
 .contents-lists {
   position: relative;
-  top: 78vh;
+  /* top: 78vh; */
+  top: 38vw;
 }
 
 .boxart {
@@ -82,7 +83,7 @@
 }
 .carousel_container {
   width: 80em;
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
 }
 .container {

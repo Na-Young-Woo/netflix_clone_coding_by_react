@@ -1,8 +1,12 @@
 /* title-and-info start */
 .title-and-info {
   position: absolute;
-  width: 36%;
-  bottom: 28%;
+  width: 36vw;
+  /* top: 18vh; */
+  top: 9vw;
+
+  /* bottom: 28%; */
+  /* border: 1px solid red; */
 }
 .info-synopsis {
   font-size: 1.2vw;
@@ -22,6 +26,7 @@
 }
 .button-wrapper button svg {
   margin-right: 5px;
+  width: 1.5em;
 }
 .button-wrapper button {
   font-size: 1.3vw;
@@ -36,6 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
 }
 .play-icon,
 .detail-info-icon {
@@ -57,3 +63,9 @@
 }
 
 /* title-and-info end */
+
+@media screen and (max-width: 400px) {
+  .title-and-info {
+    top: 0vw;
+  }
+}

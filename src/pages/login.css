@@ -130,19 +130,19 @@ body,
   font-size: 1rem;
   margin-bottom: 2rem;
 }
-footer .social-wrapper ul,
-footer .link-wrapper ul {
+footer.login-footer .social-wrapper ul,
+footer.login-footer .link-wrapper ul {
   display: flex;
   flex-flow: row wrap;
   margin-bottom: 1em;
 }
-footer .social-wrapper ul li {
+footer.login-footer .social-wrapper ul li {
   margin-right: 15px;
   padding: 0 2px;
 }
-footer .link-wrapper ul li {
-  margin-bottom: 16px;
-  width: 245px;
+footer.login-footer .link-wrapper ul li {
+  margin-bottom: 1.2rem;
+  width: 25%;
 }
 .service-code {
   margin-bottom: 1.25rem;

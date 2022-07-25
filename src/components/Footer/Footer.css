@@ -5,9 +5,10 @@ footer {
   padding-bottom: 1.25rem;
 }
 
-footer.mainFooter {
+footer.main-footer {
   position: relative;
-  top: 78vh;
+  top: 38vw;
+  margin: 0 auto;
 }
 
 footer .link-wrapper,
@@ -15,6 +16,7 @@ footer .copy-text {
   font-size: 13px;
   color: gray;
 }
+
 footer .social-wrapper ul,
 footer .link-wrapper ul {
   display: flex;
@@ -26,8 +28,9 @@ footer .social-wrapper ul li {
   padding: 0 2px;
 }
 footer .link-wrapper ul li {
-  margin-bottom: 16px;
-  width: 245px;
+  margin-bottom: 1.2rem;
+  width: 25%;
+  align-items: center;
 }
 .service-code {
   margin-bottom: 1.25rem;
@@ -42,6 +45,11 @@ footer .link-wrapper ul li {
   color: #fff;
 }
 .copy-text {
-  font-size: 11px;
+  font-size: 0.66rem;
   line-height: 1.4em;
+}
+.copy-text-block {
+  /* border: 1px solid red; */
+  margin-top: 4px;
+  font-size: 0.65rem;
 }
