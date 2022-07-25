@@ -24,11 +24,11 @@
   margin-right: 5px;
 }
 .button-wrapper button {
-  font-size: 1.1rem;
-  line-height: 2.4rem;
+  font-size: 1.3vw;
+  /* line-height: 2.4rem; */
   font-weight: bold;
   display: flex;
-  padding: 4px 1.75rem;
+  padding: 0.6em 1.75em;
   border-radius: 5px;
   margin-right: 10px;
 }

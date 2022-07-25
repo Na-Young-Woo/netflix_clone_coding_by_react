@@ -8,9 +8,6 @@
   position: relative;
   top: 78vh;
 }
-.list {
-  position: relative;
-}
 
 .boxart {
   width: 229px;
@@ -42,9 +39,12 @@
 }
 .list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 1.25rem;
+  position: relative;
+  width: 100%;
 }
+
 .arrow-prev,
 .arrow-next {
   position: absolute;
@@ -74,8 +74,8 @@
   right: -52px;
 }
 .carousel_container {
-  width: 72rem;
-  overflow: hidden;
+  width: 80em;
+  /* overflow: hidden; */
   display: flex;
 }
 .container {

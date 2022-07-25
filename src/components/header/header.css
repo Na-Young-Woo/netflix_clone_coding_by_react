@@ -6,20 +6,43 @@ nav > ul,
   flex-flow: row wrap;
   align-items: center;
 }
-header {
+
+/* 여기에  styled-component 사용하기 */
+.header {
   width: 100%;
-  height: 68px;
+  height: 4.5em;
+  min-height: 3rem;
   position: fixed;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 1.1vw;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+  /* background-color: #141414; */
+  z-index: 10;
+  /* width: -webkit-fill-available; */
+}
+
+.header-scroll {
+  width: 100%;
+  height: 4.5em;
+  min-height: 3rem;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 1.1vw;
   background-color: #141414;
   z-index: 10;
   /* width: -webkit-fill-available; */
 }
+
 #logo img {
-  height: 25px;
-  margin-right: 25px;
+  height: 1.8em;
+  margin-right: 1.5625em;
 }
 /* header end */

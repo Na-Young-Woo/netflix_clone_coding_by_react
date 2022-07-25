@@ -1,4 +1,5 @@
 import "./styles/reset.css";
+import "./styles/style.css";
 
 import Main from "./pages/Main";
 import Login from "./pages/Login";
