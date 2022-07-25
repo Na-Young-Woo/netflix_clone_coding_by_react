@@ -9,7 +9,7 @@ const RowRank = ({ title, array }) => {
             <ul>
               {array.map((item) => {
                 return (
-                  <li>
+                  <li key={item.id}>
                     <CardRank
                       viewBox={item.viewBox}
                       d={item.d}
