@@ -39,7 +39,7 @@
 }
 .list {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   margin-bottom: 1.25rem;
   position: relative;
   width: 100%;
@@ -51,13 +51,13 @@
   top: 0;
   z-index: 1;
   cursor: pointer;
-  height: 130px;
-  width: 3.125rem;
+  height: 10vw;
+  width: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 .arrow-prev:hover svg,
 .arrow-next:hover svg {
@@ -67,11 +67,18 @@
   -o-transform: scale(1.8); /* Opera */
   transition: all 0.3s ease-in-out;
 }
+
+.arrow-prev:hover,
+.arrow-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+}
 .arrow-prev {
   left: -52px;
 }
 .arrow-next {
-  right: -52px;
+  right: -4vw;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .carousel_container {
   width: 80em;

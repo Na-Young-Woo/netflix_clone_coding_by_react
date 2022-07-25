@@ -1,7 +1,7 @@
 .card img {
   border-radius: 0.2vw;
-  width: 18vw;
+  /* width: 18vw; */
   /* width: 14.2rem; */
-  /* height: 10vw; */
+  height: 10vw;
   padding: 0 2px;
 }

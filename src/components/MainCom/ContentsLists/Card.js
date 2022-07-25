@@ -6,7 +6,7 @@ const Card = ({ href, src, alt }) => {
       {/* {href} */}
       <Link to="/watch">
         <img src={src} alt={alt} />
-        <div>여기에 검은 박스 추가</div>
+        {/* <div>여기에 검은 박스 추가</div> */}
       </Link>
     </div>
   );
