@@ -1,0 +1,6 @@
+.profiles-wrapper a:last-child:hover .avatar {
+  background-color: #e5e5e5;
+}
+.profiles-wrapper a:last-child:hover .avatar path {
+  fill: gray;
+}

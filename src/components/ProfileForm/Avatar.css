@@ -1,0 +1,26 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  border-radius: 8px;
+  background-size: 128px;
+}
+
+.profiles-wrapper li:hover .avatar {
+  outline: 3px solid #e5e5e5;
+}
+
+.profiles-wrapper li:hover .avatar + div {
+  color: #e5e5e5;
+}
+
+.avatar + div {
+  font-size: 1.3vw;
+  color: gray;
+  text-align: center;
+  margin: 15px 0;
+}
