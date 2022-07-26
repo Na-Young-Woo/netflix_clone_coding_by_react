@@ -82,7 +82,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 .carousel_container {
-  width: 80em;
+  /* width: 80em; */
   overflow: hidden;
   display: flex;
 }

@@ -9,16 +9,6 @@
   }
 }
 
-@media screen and (max-width: 950px) {
-  .caret {
-    display: none;
-  }
-
-  img.profile-icon {
-    margin-right: 0;
-  }
-}
-
 @media screen and (max-width: 885px) {
   nav {
     display: none;
