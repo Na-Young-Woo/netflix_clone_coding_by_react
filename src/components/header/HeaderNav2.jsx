@@ -3,6 +3,7 @@ import "./HeaderNav2.css";
 import { useEffect, useState, useRef } from "react";
 import AllContents from "../../jsons/AllContents.json";
 import Search from "../../pages/Search";
+import styled from "styled-components";
 
 const HeaderNav2 = () => {
   const [search, setSearch] = useState("");
@@ -10,6 +11,13 @@ const HeaderNav2 = () => {
     setSearch(e.target.value);
   };
 
+  const SearchBox = styled.div`
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    width: 200px;
+    border: 1px solid blue;
+  `;
   useEffect(() => {
     AllContents.filter((val) => {
       if (search !== "") {
@@ -27,13 +35,15 @@ const HeaderNav2 = () => {
       {/* <Search /> */}
       <div className="secondary-navigation">
         <div className="nav-item search-box">
-          <input
-            type="text"
-            // style={{ border: "1px solid red", color: "#fff" }}
-            value={search}
-            onChange={handleInputChange}
-            placeholder="제목, 사람, 장르"
-          />
+          <SearchBox>
+            <input
+              type="text"
+              // style={{ border: "1px solid red", color: "#fff" }}
+              value={search}
+              onChange={handleInputChange}
+              placeholder="제목, 사람, 장르"
+            />
+          </SearchBox>
           <button type="button" className="search-icon-btn">
             <svg
               width="24"

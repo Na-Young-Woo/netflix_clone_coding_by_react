@@ -1,11 +1,24 @@
+import { useRecoilState } from "recoil";
+import { loginState } from "../../states/LoginState";
+import { Link } from "react-router-dom";
+
 const LoginBox = () => {
+  const [nickName, setNickName] = useRecoilState(loginState);
+
   return (
     <div>
       <div className="login-box">
         <h2>로그인</h2>
-        <input type="text" placeholder="이메일 주소 또는 전화번호" />
-        <input type="text" placeholder="비밀번호" />
-        <button>로그인</button>
+        <input
+          type="text"
+          placeholder="이메일 주소 또는 전화번호"
+          value={nickName}
+          onChange={(e) => setNickName(e.target.value)}
+        />
+        <input type="password" placeholder="비밀번호" />
+        <Link to="/">
+          <button>로그인</button>
+        </Link>
         <div className="login-guid-text">
           <div>
             <input type="checkbox" defaultChecked />

@@ -76,6 +76,7 @@ button {
 input {
   border: 0;
   background-color: inherit;
+  outline: none;
 }
 input[type="checkbox"],
 input[type="radio"] {

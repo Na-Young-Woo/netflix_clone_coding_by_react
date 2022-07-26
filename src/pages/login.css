@@ -24,6 +24,10 @@ body,
   position: relative;
   z-index: 100;
 }
+
+.login-box-wrapper input {
+  color: #fff;
+}
 .login-footer-wrapper {
   padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.7);
