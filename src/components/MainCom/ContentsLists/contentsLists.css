@@ -93,3 +93,9 @@
 .row {
   margin: 2rem 0;
 }
+
+@media screen and(max-width:400px) {
+  button.arrow-next {
+    display: none;
+  }
+}
