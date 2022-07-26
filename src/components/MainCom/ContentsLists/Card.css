@@ -4,4 +4,13 @@
   /* width: 14.2rem; */
   height: 10vw;
   padding: 0 2px;
+  position: relative;
+}
+
+.card img:hover {
+  height: 12vw;
+  transition: all 0.2 ease-in-out;
+  transition-duration: 0.8s;
+  position: relative;
+  z-index: 10;
 }

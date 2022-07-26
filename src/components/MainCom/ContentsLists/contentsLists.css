@@ -90,6 +90,10 @@
   /* list width만큼 움직여주기 */
   transition-duration: 0.8s;
 }
+
+.container ul {
+  align-items: center;
+}
 .row {
   margin: 2rem 0;
 }

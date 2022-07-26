@@ -5,20 +5,15 @@ import AllContents from "../../jsons/AllContents.json";
 import Search from "../../pages/Search";
 import styled from "styled-components";
 
-const InputStyled = styled.input`
-  display: ${(props) => (props.active ? "block" : "none")};
-  padding-left: 45px;
-`;
-
-const SearchIcon = styled.button`
-  transform: ${(props) =>
-    props.active ? "translateX(-230px)" : "translateX(0)"};
-`;
+import SearchState from "../../states/SearchState";
+import { useRecoilState } from "recoil";
 
 const HeaderNav2 = () => {
   const [search, setSearch] = useState("");
 
   const [click, setClick] = useState(false);
+
+  const [searchText, setSearchText] = useRecoilState(SearchState);
 
   const handleInputChange = (e) => {
     setSearch(e.target.value);
@@ -26,15 +21,27 @@ const HeaderNav2 = () => {
 
   useEffect(() => {
     AllContents.filter((val) => {
-      if (search !== "") {
+      if (search != "") {
         let index = val.alt.indexOf(search);
         let isFind = index !== -1;
         if (isFind) {
+          // 이 값을 atom에 담아!
+
+          // console.log("searchText");
+          // console.log(searchText);
+          // SearchState(val.alt);
+          // useRecoilState(val.alt);
+
+          // alert(val.alt);
+          setSearchText(val.alt);
+          // alert(searchText);
+          // setSearchText(searchText);
+          console.log(SearchState);
           console.log(val.alt);
         }
       }
     });
-  }, [search]);
+  }, [searchText]);
 
   const showSearchBox = () => {
     setClick(!click);
@@ -197,4 +204,14 @@ const HeaderNav2 = () => {
     </div>
   );
 };
+
+const InputStyled = styled.input`
+  display: ${(props) => (props.active ? "block" : "none")};
+  padding-left: 45px;
+`;
+
+const SearchIcon = styled.button`
+  transform: ${(props) =>
+    props.active ? "translateX(-230px)" : "translateX(0)"};
+`;
 export default HeaderNav2;
