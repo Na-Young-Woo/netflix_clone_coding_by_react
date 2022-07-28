@@ -25,6 +25,7 @@
   border: 1px solid #fff;
   display: flex;
   align-items: center;
+  /* width: 100px; */
   transition: all 0.3s ease-in-out;
 }
 

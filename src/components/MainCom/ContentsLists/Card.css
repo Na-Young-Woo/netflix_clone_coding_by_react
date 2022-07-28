@@ -1,16 +1,33 @@
 .card img {
-  border-radius: 0.2vw;
   /* width: 18vw; */
   /* width: 14.2rem; */
   height: 10vw;
-  padding: 0 2px;
+  position: relative;
+}
+.card {
   position: relative;
 }
 
-.card img:hover {
-  height: 12vw;
-  transition: all 0.2 ease-in-out;
-  transition-duration: 0.8s;
+.card-wrapper:hover {
+  /* height: 12vw; */
+  /* transform: translate3d(10px, 0, 10px); */
+  position: absolute;
+  z-index: 10;
+  transform: scale(1.4);
+  /* transition: all 0.2 ease-in-out; */
+  transition-duration: 0.5s;
   position: relative;
   z-index: 10;
+}
+
+.card-description {
+  display: none;
+  z-index: 10;
+  position: relative;
+
+  background-color: #141414;
+}
+
+.card:hover .card-description {
+  display: block;
 }

@@ -83,7 +83,7 @@
 }
 .carousel_container {
   /* width: 80em; */
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
 }
 .container {
@@ -92,7 +92,6 @@
 }
 
 .container ul {
-  align-items: center;
 }
 .row {
   margin: 2rem 0;

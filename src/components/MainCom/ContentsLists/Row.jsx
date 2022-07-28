@@ -36,7 +36,7 @@ const Row = ({ title, array }) => {
           <div className="container">
             <ul>
               {array.map((item) => (
-                <li key={item.id}>
+                <li className="card-wrapper" key={item.id}>
                   <Card src={item.src} alt={item.alt} href={item.href} />
                 </li>
               ))}
